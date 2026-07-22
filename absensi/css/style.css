@@ -1,0 +1,67 @@
+/* GLOBAL */
+
+body{
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* LOGIN */
+
+.login-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.login-card{
+    width:380px;
+    border:none;
+    border-radius:15px;
+}
+
+.login-card h3{
+    font-weight:700;
+    color:#0d6efd;
+
+}
+
+.form-control{
+    border-radius:10px;
+}
+
+.btn-login{
+    width:100%;
+    border-radius:10px;
+
+}
+
+
+/* CARD DASHBOARD */
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* LANDING PAGE */
+
+.hero{
+    min-height:70vh;
+    display:flex;
+    align-items:center;
+}
+
+
+.hero .card{
+    border-radius:20px;
+}
+
+
+.navbar-brand{
+    font-size:22px;
+}
